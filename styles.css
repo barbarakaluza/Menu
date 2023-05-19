@@ -1,0 +1,21 @@
+li {
+    padding: 16px 10px;
+    line-height: 160%;
+    cursor: pointer;
+}
+
+li:nth-child(even) {
+    background-color: white;
+}
+
+li:nth-child(odd) {
+    background-color: rgb(193, 191, 191);
+}
+
+.enabled {
+    font-weight: bold;
+}
+
+.disabled {
+    color: grey;
+}
